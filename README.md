@@ -14,6 +14,8 @@ HttpClient is base class which is responsible to send HTTP request and receive H
  
 To install HttpClient, right click on Solution Explorer of created application and search for HttpClient, as shown in the following image.
 
+![image](https://user-images.githubusercontent.com/39474112/40289915-b17b76e2-5cd8-11e8-92b3-42cd87a8d49a.png)
+
  
  
 Now, click on "Install" button after choosing the appropriate version. It will get installed after taking few seconds, depending on your internet speed.

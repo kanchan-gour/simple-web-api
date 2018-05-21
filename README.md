@@ -25,17 +25,20 @@ Step 3 - Install WebAPI.Client library from NuGet
 This package is used for formatting and content negotiation which provides support for System.Net.Http. To install, right click on Solution Explorer of created application and search for WebAPI.Client, as shown in following image.
  
   
+![image](https://user-images.githubusercontent.com/39474112/40289949-e78c5a6c-5cd8-11e8-807a-a650482a40fc.png)
+
+
  
 Now, click on "Install" button after choosing the appropriate version. It will get installed after taking few seconds depending on your internet speed. We have installed necessary NuGet packages to consume Web API REST services in web application. I hope you have followed the same steps.
 
 Step 3 – Execute all the required database script from ‘Evolent_Script’ folder(Attached).
 
 Step 4 – Change the configuration file of project(Web.Config), provide valid database connection string.
-
+```
 <connectionStrings>
   <add name="dbConn" connectionString="server=localhost; uid=sa;  Password=caliber_09; database=DB1;"/>  
-  </connectionStrings>
- 
+</connectionStrings>
+ ```
 Step 5 – Build Solution.
 Step 6 – Note the URL during running this API.
 Step 7 – Run the ‘ConsumeWebApi’ solution (Windows form application project attached).

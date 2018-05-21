@@ -36,7 +36,7 @@ Step 3 – Execute all the required database script from ‘Evolent_Script’ fo
 Step 4 – Change the configuration file of project(Web.Config), provide valid database connection string.
 ```
 <connectionStrings>
-  <add name="dbConn" connectionString="server=localhost; uid=sa;  Password=caliber_09; database=DB1;"/>  
+  <add name="dbConn" connectionString="server=localhost; uid=sa;  Password=*******; database=DB1;"/>  
 </connectionStrings>
  ```
 Step 5 – Build Solution.
